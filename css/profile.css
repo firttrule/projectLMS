@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* MAIN */
+.profile_box,
+.profile_ach {
+  background: #d9d9d9;
+  border-radius: 25px;
+}
+
+.profile_box {
+  width: 850px;
+  height: 288px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+
+.profile_user {
+  padding: 30px 0px 0px 25px;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 60px;
+}
+
+.profile_user_photo {
+  margin-right: 33px;
+}
+
+.text1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+
+.h1 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 4px;
+}
+
+.profile_user_info_content,
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.profile_ach {
+  width: 270px;
+  height: 288px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile_ach_title {
+  padding-top: 11px;
+}
+
+.profile_user_info_content {
+  margin-bottom: 6px;
+}
+
+.profile_box_btn {
+  padding-left: 97px;
+  display: flex;
+  gap: 21px;
+}
+.profile_box_btn_item {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  display: inline-block;
+  width: 172px;
+  height: 27px;
+  background: #ffffff;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 4px;
+  margin-bottom: 29px;
+}
+
+.profile_progress {
+  background: #aaaf87;
+  border-radius: 25px;
+  margin-bottom: 66px;
+}
+
+.profile_progress_counter {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.text2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  color: #000000;
+}
+
+.h2 {
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 15px;
+}
+
+.actual_box,
+.passed_box {
+  display: flex;
+  gap: 20px;
+}
+
+.course_img {
+  width: 173px;
+  height: 176px;
+  margin-bottom: 15px;
+}
+
+.h4 {
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 71px;
+}
+/* MAIN */
