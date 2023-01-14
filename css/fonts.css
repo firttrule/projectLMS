@@ -1,0 +1,9 @@
+@font-face { 
+    font-family: "CirceRegular";
+    src: url("../fonts/CirceRegular/CirceRegular.eot");
+    src: url("../fonts/CirceRegular/CirceRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CirceRegular/CirceRegular.woff") format("woff"),
+    url("../fonts/CirceRegular/CirceRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
