@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="../js/login.js"></script>
     <link rel="stylesheet" href="../css/profile.css" />
     <link rel="stylesheet" href="../css/header&footer.css" />
     <link rel="stylesheet" href="../css/login&registration.css" />
@@ -32,14 +33,16 @@
             <div class="enter_text">Войти в аккаунт</div>
             <div class="input_email">
                 <div class="data_text">Введите email</div>
-                <input class="enter_data_field"></input>
+                <input id="email_field" class="enter_data_field"></input>
             </div>
+            <div id="error_email_text" class="error_text">Для входа необходим корректный email</div>
             <div class="input_password">
                 <div class="data_text">Введите пароль</div>
-                <input class="enter_data_field"></input>
+                <input id="password_field" class="enter_data_field"></input>
             </div>
+            <div id="error_password_text" class="error_text">Пароль неверный или введен неправильно</div>
             <button class="forget_password">Забыл пароль</button>
-            <button class="eneter_button">Войти</button>
+            <button id="enter_button" class="enter_button">Войти</button>
             <div class="no_profile_container">
                 <div class="no_profile_text">Нет профиля?</div>
                 <button onclick="window.location.href='registration.html'" class="registration_button">Зарегистрироваться</button>
