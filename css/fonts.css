@@ -1,4 +1,10 @@
 @font-face { 
+    font-family: "Coolvetica";
+    src: url("../fonts/Coolvetica/coolvetica.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face { 
     font-family: "CirceRegular";
     src: url("../fonts/CirceRegular/CirceRegular.eot");
     src: url("../fonts/CirceRegular/CirceRegular.eot?#iefix")format("embedded-opentype"),
@@ -7,3 +13,4 @@
     font-style: normal;
     font-weight: 400;
 }
+
