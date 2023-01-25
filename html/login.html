@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../js/login.js"></script>
+    <link rel="stylesheet" href="../css/profile.css" />
+    <link rel="stylesheet" href="../css/header&footer.css" />
+    <link rel="stylesheet" href="../css/login&registration.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <section class="header">
+        <div class="header_logo">
+          <img class="header_logo_img" src="../img/LogoNB.png" alt="logo" />
+        </div>
+
+        <div class="header_menu">
+          <a href="#" class="header_menu_link">Главная</a>
+          <a href="#" class="header_menu_link">Курсы</a>
+          <a href="#" class="header_menu_link">О нас</a>
+          <a onclick="window.location.href='registration.html'" href="#" class="header_menu_link reg_btn">Регистрация</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="main_container">
+            <div class="enter_text">Войти в аккаунт</div>
+            <div class="input_email">
+                <div class="data_text">Введите email</div>
+                <input id="email_field" class="enter_data_field"></input>
+            </div>
+            <div id="error_email_text" class="error_text">Для входа необходим корректный email</div>
+            <div class="input_password">
+                <div class="data_text">Введите пароль</div>
+                <input id="password_field" class="enter_data_field"></input>
+            </div>
+            <div id="error_password_text" class="error_text">Пароль неверный или введен неправильно</div>
+            <button class="forget_password">Забыл пароль</button>
+            <button id="enter_button" class="enter_button">Войти</button>
+            <div class="no_profile_container">
+                <div class="no_profile_text">Нет профиля?</div>
+                <button onclick="window.location.href='registration.html'" class="registration_button">Зарегистрироваться</button>
+            </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer">
+        <div class="footer_box">
+          <h2 class="footer_box_title h2 text2">Информация</h2>
+          <ul class="footer_box_list">
+            <li class="footer_box_list_item text2">
+              <a class="footer_box_list_item_link text2" href="../html/main_page.html">Главная</a>
+            </li>
+            <li class="footer_box_list_item">
+              <a class="footer_box_list_item_link text2" href="#">Курсы</a>
+            </li>
+            <li class="footer_box_list_item">
+              <a class="footer_box_list_item_link text2" href="#">О нас</a>
+            </li>
+            <li class="footer_box_list_item">
+              <a class="footer_box_list_item_link text2" href="../html/newProfile.html"
+                >Личный кабинет</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_box">
+          <h2 class="footer_box_title h2 text2">Местоположение</h2>
+          <div class="footer_box_gps">
+            <img class="footer_box_gps_img" src="../img/gps.png" alt="gps" />
+          </div>
+        </div>
+
+        <div class="footer_box">
+          <h2 class="footer_box_title h2 text2">Контакты</h2>
+          <ul class="footer_box_list">
+            <li class="footer_box_list_item">
+              <a class="footer_box_list_item_link text2" href="#">instagram</a>
+            </li>
+            <li class="footer_box_list_item">
+              <a
+                class="footer_box_list_item_link text2"
+                href="https://vk.com/cyberclass_volok"
+                >vk</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

@@ -1,232 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/LMS_current_courses.css" />
-    <link rel="stylesheet" href="../css/header&footer.css" />
-  </head>
 
-  <body>
-    <!-- HEADER -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./LMS_Main.css" />
+</head>
 
-    <header>
-      <section class="header">
-        <div class="header_logo">
-          <img class="header_logo_img" src="../img/LogoNB.png" alt="logo" />
+<body>
+
+  <!-- HEADER -->
+
+  <header class="header">
+
+    <div id="main_menu" class="main_menu">
+
+      <button class="menu_btn b1" onclick="window.location.href='LMS_Main.html'">Главная</button>
+      <button class="menu_btn b2">О нас</button>
+      <button class="menu_btn b2" onclick="window.location.href='LMS_Courses.html'">Курсы</button>
+      <button class="menu_btn b2">Классы</button>
+    </div>
+
+
+
+    <div class="up2">
+      <button class="menu_btn b4" onclick="window.location.href='LMS_Profile.html'">
+        Мой аккаунт
+      </button>
+    </div>
+
+
+
+  </header>
+
+  <!-- HEADER -->
+
+  <!-- MAIN -->
+
+  <main class="container_curent_courses">
+    <div class="curent_courses">
+      <div class="lekciya_header">
+        <div class="lekciya_header_logo">
+
         </div>
 
-        <div class="header_menu">
-          <a href="#" class="header_menu_link">Главная</a>
-          <a href="#" class="header_menu_link">Курсы</a>
-          <a href="#" class="header_menu_link">О нас</a>
-          <a href="#" class="header_menu_link reg_btn">Регистрация</a>
-        </div>
-      </section>
-    </header>
-
-    <!-- HEADER -->
-
-    <!-- MAIN -->
-
-    <main class="container_curent_courses">
-      <div class="curent_courses">
-        <div class="navigation">
-          <a href="#" class="navigation_profile">Профиль</a>
-          <img class="navigation_arrow_svg" src="pictures/arrow.svg" alt="" />
-          <a href="#" class="navigation_cuurent_courses">Актуальные курсы</a>
-          <img class="navigation_arrow_svg" src="pictures/arrow.svg" alt="" />
-          <a href="#" class="navigation_developer_C">Разработчик C</a>
-        </div>
-        <section class="modules">
-          <button type="button" class="btn_modules btn-primary">
-            Модуль 1
-          </button>
-          <button type="button" class="btn_modules btn-secondary">
-            Модуль 1
-          </button>
-          <button type="button" class="btn_modules btn-success">
-            Модуль 1
-          </button>
-          <button type="button" class="btn_modules btn-danger">Модуль 1</button>
-          <button type="button" class="btn_modules btn-warning">
-            Модуль 1
-          </button>
-          <button type="button" class="btn_modules btn-info">Модуль 1</button>
-        </section>
-        <section class="module_1">
-          <h1 class="module_1_h1">Модуль 1: основы программирования</h1>
-
-          <div class="module_1_cards">
-            <div class="module_1_card">
-              <div class="module_1_card_1"></div>
-              <div class="module_1_cards_header">
-                <h2>Лекция 1.</h2>
-                <h2>Программирование</h2>
-              </div>
-            </div>
-
-            <div class="module_1_card">
-              <div class="module_1_card_1"></div>
-              <div class="module_1_cards_header">
-                <h2>Лекция 1.</h2>
-                <h2>Программирование</h2>
-              </div>
-            </div>
-
-            <div class="module_1_card">
-              <div class="module_1_card_1"></div>
-              <div class="module_1_cards_header">
-                <h2>Лекция 1.</h2>
-                <h2>Программирование</h2>
-              </div>
-            </div>
-
-            <div class="module_1_card">
-              <div class="module_1_card_1"></div>
-              <div class="module_1_cards_header">
-                <h2>Лекция 1.</h2>
-                <h2>Программирование</h2>
-              </div>
+        <div class="lekciya_header_search">
+          <div class="wrapper1">
+            <div class="container1">
+              <input type="text" class="input1" placeholder="Search">
+              <div class="close-btn">&times;</div>
             </div>
           </div>
+        </div>
 
-          <div class="module_1_cards module_1_cards_1">
-            <div class="module_1_card">
-              <div class="module_1_card_1"></div>
-              <div class="module_1_cards_header">
-                <h2>Лекция 1.</h2>
-                <h2>Программирование</h2>
-              </div>
-            </div>
-
-            <div class="module_1_card">
-              <div class="module_1_card_1"></div>
-              <div class="module_1_cards_header">
-                <h2>Лекция 1.</h2>
-                <h2>Программирование</h2>
-              </div>
-            </div>
-
-            <div class="module_1_card">
-              <div class="module_1_card_1"></div>
-              <div class="module_1_cards_header">
-                <h2>Лекция 1.</h2>
-                <h2>Программирование</h2>
-              </div>
-            </div>
-
-            <div class="module_1_card">
-              <div class="module_1_card_1"></div>
-              <div class="module_1_cards_header">
-                <h2>Лекция 1.</h2>
-                <h2>Программирование</h2>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
-    </main>
+      <div class="navigation">
+        <a href="#" class="navigation_profile">Личный кабинет</a>
+        <img class="navigation_arrow_svg" src="pictures/arrow.svg" alt="">
+        <a href="#" class="navigation_cuurent_courses">Занятия</a>
+      </div>
+      <div class="zanyatiya">
+        <button type="button" class="btn_zanyatiya">Занятия</button>
+      </div>
+      <section class="modules">
+        <button type="button" class="btn_modules btn-primary">Модуль 1</button>
+        <button type="button" class="btn_modules btn-secondary">Модуль 2</button>
+        <button type="button" class="btn_modules btn-success">Модуль 3</button>
+        <button type="button" class="btn_modules btn-danger">Модуль 4</button>
+        <button type="button" class="btn_modules btn-warning">Модуль 5</button>
+        <button type="button" class="btn_modules btn-info">Модуль 6</button>
+      </section>
 
-    <!-- MAIN -->
+      <section class="lekciya">
+        <div class="lekciya_div">
+          <div class="lekciya_left">
 
-    <!-- FOOTER -->
+            <p class="lekciya_1_1 lekciya_1 lekciya_p">Лекция 1.1</p>
+            <p class="lekciya_1_1_practica lekciya_p">Практика 1.1</p>
+            <p class="lekciya_1_1_language lekciya_p">Какие языки программирования бывают?</p>
+            <p class="lekciya_1_2 lekciya_p">Лекция 1.2.</p>
+            <p class="lekciya_1_2_materials lekciya_p">Полезные материалы</p>
+            <p class="lekciya_1_2_homework lekciya_p">Домашнее задание</p>
+            <p class="lekciya_1_2_quetions lekciya_p">Ответы на вопросы</p>
+            <p class="lekciya_1_2_practica lekciya_p">Практика 1.2</p>
 
-    <footer>
-      <section class="footer">
-        <div class="footer_box">
-          <h2 class="footer_box_title h2 text2">Информация</h2>
-          <ul class="footer_box_list">
-            <li class="footer_box_list_item text2">
-              <a class="footer_box_list_item_link text2" href="#">Главная</a>
-            </li>
-            <li class="footer_box_list_item">
-              <a class="footer_box_list_item_link text2" href="#">Курсы</a>
-            </li>
-            <li class="footer_box_list_item">
-              <a class="footer_box_list_item_link text2" href="#">О нас</a>
-            </li>
-            <li class="footer_box_list_item">
-              <a class="footer_box_list_item_link text2" href="#"
-                >Личный кабинет</a
-              >
-            </li>
-          </ul>
-        </div>
+          </div>
 
-        <div class="footer_box">
-          <h2 class="footer_box_title h2 text2">Местоположение</h2>
-          <div class="footer_box_gps">
-            <img class="footer_box_gps_img" src="../img/gps.png" alt="gps" />
+          <div class="lekciya_right1">
+            <div class="lekciya_right">
+              <div class="lekciya_1_1_title">
+                <p class="lekciya_1_1_title_p">Лекция 1.1</p>
+              </div>
+              <div class="lekciya_1_1_info">
+                <p class="lekciya_1_1_info_p">Ясность нашей позиции очевидна: социально-экономическое развитие
+                  обеспечивает
+                  актуальность благоприятных перспектив. С учётом сложившейся международной обстановки, базовый вектор
+                  развития однозначно определяет каждого участника как способного принимать собственные решения касаемо
+                  переосмысления внешнеэкономических политик. Учитывая ключевые сценарии поведения,
+                  социально-экономическое развитие обеспечивает актуальность направлений прогрессивного развития.
+                  Банальные, но неопровержимые выводы, а также действия представителей оппозиции могут быть
+                  функционально
+                  разнесены на независимые элементы.
+                  Являясь всего лишь частью общей картины, сторонники тоталитаризма в науке подвергнуты целой серии
+                  независимых исследований. Господа, высокое качество позиционных исследований говорит о возможностях
+                  первоочередных требований.
+                  Разнообразный и богатый опыт говорит нам, что глубокий уровень погружения требует от нас анализа
+                  соответствующих условий активизации.
+                  Не следует, однако, забывать, что высокое качество позиционных исследований требует анализа
+                  существующих
+                  финансовых и административных условий. А ещё стремящиеся вытеснить традиционное производство,
+                  нанотехнологии своевременно верифицированы. Лишь предприниматели в сети интернет разоблачены.</p>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="footer_box">
-          <h2 class="footer_box_title h2 text2">Контакты</h2>
-          <ul class="footer_box_list">
-            <li class="footer_box_list_item">
-              <a class="footer_box_list_item_link text2" href="#">instagram</a>
-            </li>
-            <li class="footer_box_list_item">
-              <a
-                class="footer_box_list_item_link text2"
-                href="https://vk.com/cyberclass_volok"
-                >vk</a
-              >
-            </li>
-          </ul>
-        </div>
       </section>
-    </footer>
+    </div>
+  </main>
 
-    <!-- FOOTER -->
+  <!-- MAIN -->
 
-    <script>
-      let btn_on = document.getElementById("btn_on");
-      let btn_off = document.getElementById("btn_off");
-      let main_menu = document.getElementById("main_menu");
-      let logo = document.getElementById("logo");
-      let picB = document.getElementById("picB");
-      let picBl = document.getElementById("picBl");
+  <script>
 
-      // MAIN MENU
+    let btn_on = document.getElementById('btn_on');
+    let btn_off = document.getElementById('btn_off');
+    let main_menu = document.getElementById('main_menu');
+    let logo = document.getElementById('logo');
+    let picB = document.getElementById('picB');
+    let picBl = document.getElementById('picBl');
 
-      function close() {
-        btn_off.style.display = "none";
-        btn_on.style.display = "block";
-        main_menu.style.marginTop = "-6vh";
-      }
+    // MAIN MENU
 
-      function open() {
-        btn_off.style.display = "block";
-        btn_on.style.display = "none";
-        main_menu.style.marginTop = "0";
-      }
 
-      btn_on.onclick = function () {
-        open();
-      };
 
-      btn_off.onclick = function () {
-        close();
-      };
+    function close() {
+      btn_off.style.display = "none";
+      btn_on.style.display = "block";
+      main_menu.style.marginTop = "-6vh"
+    }
 
-      // MAIN MENU
+    function open() {
+      btn_off.style.display = "block";
+      btn_on.style.display = "none";
+      main_menu.style.marginTop = "0"
+    }
+
+    btn_on.onclick = function () {
+      open();
+    }
+
+    btn_off.onclick = function () {
+      close();
+    }
+
+    // MAIN MENU
+
+    //  MAIN PICTURES
+
+    logo.onmouseover = function () {
+      picB.style.opacity = "0"
+      picBl.style.opacity = "1"
+    }
+    logo.onmouseleave = function () {
+      picB.style.opacity = "1"
+      picBl.style.opacity = "0"
+    }
 
       //  MAIN PICTURES
 
-      logo.onmouseover = function () {
-        picB.style.opacity = "0";
-        picBl.style.opacity = "1";
-      };
-      logo.onmouseleave = function () {
-        picB.style.opacity = "1";
-        picBl.style.opacity = "0";
-      };
+  </script>
 
-      //  MAIN PICTURES
-    </script>
-  </body>
+</body>
+
 </html>

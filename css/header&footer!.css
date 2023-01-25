@@ -31,12 +31,8 @@
 .header_menu_link {
   text-decoration: none;
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 38px;
-  /* identical to box height */
-
+  font-size: 24px;
+  line-height: 28px;
   color: #000000;
 }
 
@@ -45,7 +41,6 @@
   border-radius: 10px;
   font-size: 24px;
   line-height: 28px;
-
   color: #ffffff;
   padding: 8px 14px 9px 15px;
 }
@@ -59,12 +54,8 @@
 }
 
 .footer_box_title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 42px;
-
+  font-size: 24px;
+  line-height: 29px;
   color: #000000;
   margin-bottom: 24px;
 }
@@ -76,13 +67,8 @@
 
 .footer_box_list_item_link {
   text-decoration: none;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  /* identical to box height */
-
   color: #000000;
 }
 

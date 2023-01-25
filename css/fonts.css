@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url(../fonts/CirceRegular.ttf);
+}
