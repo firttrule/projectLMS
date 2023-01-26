@@ -20,7 +20,7 @@ function setClickListners(list,classNameVar) {
 function setSlideListners(list) {
     for (let i = 0; i < list.length; i++) {
         list[i].addEventListener("click", function() {
-            coursesLine.style.right = i*1157 + 'px';
+            coursesLine.style.right = i*1156 + 'px';
         });
       }
   }
