@@ -74,11 +74,13 @@
     display: flex;
     margin-top: 20px;
     font-family: 'Montserrat';
+    font-size: 16px;
     margin-bottom: 160px;
 }
 
 .registration_button {
     font-family: 'Montserrat';
+    font-size: 16px;
     text-decoration: underline;
     margin-left: 4px;
     border: 0;

@@ -19,10 +19,10 @@
         </div>
 
         <div class="header_menu">
-          <a href="#" class="header_menu_link">Главная</a>
+          <a href="main_page.html" class="header_menu_link">Главная</a>
           <a href="#" class="header_menu_link">Курсы</a>
           <a href="#" class="header_menu_link">О нас</a>
-          <a onclick="window.location.href='registration.html'" href="#" class="header_menu_link reg_btn">Регистрация</a>
+          <a href="registration.html" class="header_menu_link reg_btn">Регистрация</a>
         </div>
       </section>
     </header>
@@ -32,16 +32,16 @@
             <div class="enter_text">Регистрация</div>
             <div class="input_email">
                 <div class="data_text">Введите email</div>
-                <input class="enter_data_field"></input>
+                <input  name="email" type="email"  class="enter_data_field">
             </div>
             <div class="input_password">
                 <div class="data_text">Введите пароль</div>
-                <input class="enter_data_field"></input>
+                <input name="password" type="password" class="enter_data_field">
             </div>
             <button class="reg_button">Зарегистрироваться</button>
             <div class="no_profile_container">
                 <div class="no_profile_text">Есть профиль?</div>
-                <button onclick="window.location.href='login.html'" class="registration_button">Войти</button>
+                <a href="login.html" class="registration_button">Войти</a>
             </div>
       </section>
     </main>
