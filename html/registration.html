@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="../js/registration.js"></script>
     <link rel="stylesheet" href="../css/profile.css" />
     <link rel="stylesheet" href="../css/header&footer.css" />
     <link rel="stylesheet" href="../css/login&registration.css" />
@@ -36,9 +37,12 @@
             </div>
             <div class="input_password">
                 <div class="data_text">Введите пароль</div>
-                <input name="password" type="password" class="enter_data_field">
+                <input id="password_field" name="password" type="password" class="enter_data_field">
+                <div class="data_text mt5">Повторите пароль</div>
+                <input id="confirm_password_field" name="password_confirm" type="password" class="enter_data_field">
             </div>
-            <button class="reg_button">Зарегистрироваться</button>
+            <div id="confirm_password_error" class="confirm_password_error error_text">Пароли должны совпадать!</div>
+            <button id="reg_button" class="reg_button">Зарегистрироваться</button>
             <div class="no_profile_container">
                 <div class="no_profile_text">Есть профиль?</div>
                 <a href="login.html" class="registration_button">Войти</a>
@@ -61,9 +65,7 @@
               <a class="footer_box_list_item_link text2" href="#">О нас</a>
             </li>
             <li class="footer_box_list_item">
-              <a onclick="window.location.href='profile.html'" class="footer_box_list_item_link text2" href="#"
-                >Личный кабинет</a
-              >
+              <a class="footer_box_list_item_link text2" href="profile.html">Личный кабинет</a>
             </li>
           </ul>
         </div>

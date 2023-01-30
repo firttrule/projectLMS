@@ -18,6 +18,11 @@
     font-family: 'CirceRegular';
 }
 
+.mt5 {
+    margin-top: 5px;
+}
+
+
 .enter_data_field {
     border-radius: 5px;
     max-width: 348px;
@@ -92,7 +97,7 @@
     font-family: 'CirceRegular';
     cursor: pointer;
     font-size: 24px;
-    margin-top: 44px;
+    margin-top: 16px;
     border: 0;
     background-color: #D9D9D9;
     border-radius: 25px;
