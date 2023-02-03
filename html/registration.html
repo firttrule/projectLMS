@@ -14,36 +14,24 @@
 </head>
 
 <body>
-  <header>
-    <section class="header">
-      <div class="header_logo">
-        <img class="header_logo_img" src="../img/LogoNB.png" alt="logo" />
-      </div>
-
-      <div class="header_menu">
-        <a href="#" class="header_menu_link">Главная</a>
-        <a href="#" class="header_menu_link">Курсы</a>
-        <a href="#" class="header_menu_link">О нас</a>
-        <a onclick="window.location.href='registration.html'" href="#" class="header_menu_link reg_btn">Регистрация</a>
-      </div>
-    </section>
-  </header>
-
   <main>
     <section class="main_container">
       <div class="enter_text">Регистрация</div>
       <div class="input_email">
         <div class="data_text">Введите email</div>
-        <input class="enter_data_field"></input>
+        <input name="email" type="email" class="enter_data_field">
       </div>
       <div class="input_password">
         <div class="data_text">Введите пароль</div>
-        <input class="enter_data_field"></input>
+        <input id="password_field" name="password" type="password" class="enter_data_field">
+        <div class="data_text mt5">Повторите пароль</div>
+        <input id="confirm_password_field" name="password_confirm" type="password" class="enter_data_field">
       </div>
-      <button class="reg_button">Зарегистрироваться</button>
+      <div id="confirm_password_error" class="confirm_password_error error_text">Пароли должны совпадать!</div>
+      <button id="reg_button" class="reg_button">Зарегистрироваться</button>
       <div class="no_profile_container">
         <div class="no_profile_text">Есть профиль?</div>
-        <button onclick="window.location.href='login.html'" class="registration_button">Войти</button>
+        <a href="login.html" class="registration_button">Войти</a>
       </div>
     </section>
   </main>
@@ -51,13 +39,13 @@
   <footer>
     <section class="footer">
       <div class="footer_box">
-        <h2 class="footer_box_title h2 text2">Информация</h2>
+        <h2 class="footer_box_title h2 text2 heading">Информация</h2>
         <ul class="footer_box_list">
           <li class="footer_box_list_item text2">
             <a class="footer_box_list_item_link text2" href="../html/main_page.html">Главная</a>
           </li>
           <li class="footer_box_list_item">
-            <a class="footer_box_list_item_link text2" href="#">Курсы</a>
+            <a class="footer_box_list_item_link text2" href="../html/courses.html">Курсы</a>
           </li>
           <li class="footer_box_list_item">
             <a class="footer_box_list_item_link text2" href="#">О нас</a>
@@ -69,14 +57,14 @@
       </div>
 
       <div class="footer_box">
-        <h2 class="footer_box_title h2 text2">Местоположение</h2>
+        <h2 class="footer_box_title h2 text2 heading">Местоположение</h2>
         <div class="footer_box_gps">
           <img class="footer_box_gps_img" src="../img/gps.png" alt="gps" />
         </div>
       </div>
 
       <div class="footer_box">
-        <h2 class="footer_box_title h2 text2">Контакты</h2>
+        <h2 class="footer_box_title h2 text2 heading">Контакты</h2>
         <ul class="footer_box_list">
           <li class="footer_box_list_item">
             <a class="footer_box_list_item_link text2" href="#">instagram</a>

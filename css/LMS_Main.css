@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(251, 237, 214);
+  min-height: 100vh;
+  background-image: url(./Pictures/main_back.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container_curent_courses {
+  margin: 150px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 1440px;
+  height: 930px;
+}
+
+.lekciya_header_logo {
+  width: 270px;
+  height: 75px;
+  left: 150px;
+  top: 34px;
+  background: #d9d9d9;
+  margin-top: 49px;
+}
+
+.lekciya_header {
+  display: flex;
+}
+
+.wrapper1 {
+}
+
+.container1 {
+  padding-top: 69px;
+  padding-left: 117px;
+}
+
+.input1 {
+  width: 450px;
+  border: 2px solid #000000;
+  background: transparent;
+  padding: 10px 25px;
+  border-radius: 50px;
+  outline: none;
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #000000;
+  font-family: Roboto;
+  letter-spacing: 2px;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #000;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #000;
+}
+
+.close-btn {
+  /*     position: absolute; */
+  top: 27px;
+  right: 80px;
+  font-size: 35px;
+  cursor: pointer;
+  color: #000000;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.close-btn.active {
+  opacity: 1;
+  animation: animate 0.5s linear;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.2);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  75% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #4c4c4c;
+  padding-bottom: 26px;
+  padding-top: 20px;
+}
+
+.navigation_profile,
+.navigation_cuurent_courses,
+.navigation_developer_C {
+  color: #4c4c4c;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navigation_arrow_svg {
+  height: 20px;
+}
+
+.modules {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding-bottom: 25px;
+}
+
+.btn_modules {
+  padding: 5px;
+  gap: 8px;
+  width: 173px;
+  background: #d9d9d9;
+  border-radius: 25px;
+}
+
+.btn_modules:hover {
+  cursor: pointer;
+}
+
+.btn_zanyatiya {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 91px;
+  gap: 8px;
+
+  width: 270px;
+  height: 50px;
+
+  background: #675b5b;
+  border-radius: 25px;
+  margin-bottom: 35px;
+}
+
+.lekciya_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lekciya_left {
+  display: flex;
+  flex-direction: column;
+  width: 173px;
+  height: 392px;
+  border-radius: 4px;
+
+  filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.1))
+    drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.2));
+}
+
+.lekciya_p {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 8px;
+  width: 173px;
+  height: 40px;
+  background: #ffffff;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.lekciya_p:hover {
+  cursor: pointer;
+  color: #4c4c4c;
+}
+
+.lekciya_1_1_language {
+  padding-bottom: 32px;
+}
+
+.lekciya_1 {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #dddddd;
+}
+
+.lekciya_1_1_practica {
+  padding-top: 8px;
+}
+
+.lekciya_right {
+  display: flex;
+  flex-direction: column;
+  width: 947px;
+
+  background: #d9d9d9;
+  border-radius: 5px;
+}
+
+.lekciya_1_1_title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px 715px 20px 25px;
+  gap: 8px;
+  background: #cbbfbf;
+}
+
+.lekciya_1_1_title_p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.lekciya_1_1_info_p {
+  width: 914px;
+  padding-top: 20px;
+  padding-left: 8px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 13px;
+}

@@ -4,86 +4,71 @@
 }
 
 body {
+  background: #f8f8f8;
   margin: 0 auto;
   max-width: 1140px;
   font-family: "Circe";
   font-size: 20px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-  padding-right: 97px;
-  margin-bottom: 58px;
-}
-
-.header_logo {
-  width: 81px;
-  height: 81px;
-  padding-left: 94px;
-}
-
-.header_logo img {
-  width: 100%;
-}
-
-/* .header_search{
-  position: relative;
-}
-
-.header_search img{
-  
-} */
-
-.header_search input {
-  padding: 8px 32px 8px 8px;
-  width: 656px;
-  margin-top: 29px;
-  font-family: "Roboto";
-  border-radius: 5px;
-  box-sizing: border-box;
-  border-color: black;
-  opacity: 0.5;
-}
-
 .info {
   display: flex;
-  gap: 117px;
-  margin-bottom: 34px;
+  gap: 194px;
+  margin-bottom: 37px;
 }
 
 .info_menu {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 21px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  height: 290px;
+  background: #ffffff;
+}
+
+.info_menu div {
+  display: flex;
+}
+
+.info_menu div img {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .info_menu_item {
-  text-decoration: none;
-  font-family: "Montserrat";
-  font-size: 20px;
-  line-height: 24px;
-  color: #000000;
-  width: 270px;
-  height: 50px;
-  background: #d9d9d9;
+  height: 25px;
   border-radius: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-right: 13px;
 }
 
-/* .info_person {
+.info_menu_item_link {
+  text-decoration: none;
+  font-family: "Circe";
+  font-size: 16px;
+  line-height: 24px;
+  color: #191919;
+}
 
-} */
+.info_menu_item:first-child {
+  margin-top: 20px;
+}
+
+.info_menu_item:last-child {
+  margin-bottom: 20px;
+}
+
+.info_menu_item:last-child a {
+  color: #d9d9d9;
+}
 
 .info_person_box {
   display: flex;
   width: 753px;
-  height: 282px;
-  background: #d9d9d9;
-  border-radius: 25px;
+  height: 290px;
+  background: rgba(217, 217, 217, 0.5);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
   position: relative;
   margin-bottom: 35px;
 }
@@ -112,18 +97,16 @@ body {
 }
 
 .info_person_box_content_action p {
-  margin-right: 14px;
+  margin-right: 9px;
 }
 
-.info_person_box_content_action button {
-  border: 0;
-  background: #d9d9d9;
+.info_person_box_content_action img {
   cursor: pointer;
 }
 
 .info_progress {
   width: 753px;
-  background: linear-gradient(to right, #675b5b 78%, #d9d9d9 22%);
+  background: linear-gradient(to right, #008b9b 78%, rgba(5, 152, 90, 0.5) 22%);
   border-radius: 25px;
   display: flex;
   justify-content: center;
@@ -131,18 +114,14 @@ body {
 }
 
 .info_progress p {
-  font-family: "Montserrat";
   font-weight: 500;
+  font-size: 20px;
   line-height: 24px;
-  color: #ffffff;
+  color: #f8f8f8;
 }
 
 .heading {
   font-family: "Montserrat";
-}
-
-.actual-passed {
-  margin-left: 387px;
 }
 
 .courses_title {
@@ -170,8 +149,13 @@ body {
   border-radius: 25px;
 }
 
+.course_box_item img:hover {
+  cursor: pointer;
+}
+
 .course_box_title {
   font-weight: 400;
+  font-size: 24px;
 }
 
 .actual {
