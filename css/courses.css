@@ -1,0 +1,344 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 1170px;
+  margin: 0 auto;
+  background: #F8F8F8;
+}
+
+/* MAIN */
+
+main {
+  margin-top: 100px;
+  display: flex;
+
+}
+
+/* MAIN */
+
+
+
+/* courses */
+
+.courses {
+  padding-left: 117px;
+}
+
+.courses_wrap_course_img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+  width: 270px;
+  height: 186px;
+  border-radius: 5px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+.courses_wrap_course_header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+
+.courses_wrap_course_info_text {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.img {
+  width: 270px;
+  height: 186px;
+  border-radius: 5px;
+}
+
+.courses_wrap_course_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 463px;
+
+  cursor: default;
+}
+
+.courses_wrap_course_1 {
+  display: flex;
+
+  align-items: center;
+  padding: 0px;
+
+
+  width: 773px;
+  height: 186px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-bottom: 70px;
+}
+
+.scraths {
+  padding-left: 20px;
+}
+
+/* .courses_wrap_course_header {
+    margin-bottom: 5px;
+} */
+
+.checkbox_programma {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: #FFFFFF;
+  border: 1px solid #DEE2E6;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 1px 1px 3px rgba(0, 0, 0, 0.08);
+  margin-bottom: 35px;
+}
+
+.checkbox_complexity {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: #FFFFFF;
+  border: 1px solid #DEE2E6;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 1px 1px 3px rgba(0, 0, 0, 0.08);
+
+  margin-bottom: 35px;
+}
+
+.checkbox_title {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #6C757D;
+  margin-bottom: 12px;
+}
+
+.peshki {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 15px;
+  padding-top: -10px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2px 45px;
+  gap: 8px;
+
+  width: 179px;
+  height: 28px;
+
+  background: #008B9B;
+  border-radius: 25px;
+
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  border: 0;
+  color: #FFFFFF;
+
+}
+
+.button2 {
+  padding-left: 14px;
+}
+
+/* */
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.checkbox_programma {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  justify-content: center;
+
+  font: 20px/1.4 "RobotoDraft", sans-serif;
+}
+
+/* .h1 {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 0 .5em 0;
+} */
+
+input[type='checkbox'] {
+  height: 0;
+  width: 0;
+}
+
+input[type='checkbox']+label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  transition: color 250ms cubic-bezier(.4, .0, .23, 1);
+}
+
+input[type='checkbox']+label>ins {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 2em;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  transition: height 300ms cubic-bezier(.4, .0, .23, 1);
+}
+
+input[type='checkbox']+label>ins>i {
+  position: absolute;
+  bottom: 0;
+  font-style: normal;
+  color: #000000;
+}
+
+input[type='checkbox']+label>span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: 2px solid #000000;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 250ms cubic-bezier(.4, .0, .23, 1);
+  color: #FFFFFF;
+}
+
+input[type='checkbox']+label:hover,
+input[type='checkbox']:focus+label {
+  color: #000000;
+
+}
+
+input[type='checkbox']+label:hover>span,
+input[type='checkbox']:focus+label>span {
+  background: #FFFFFF;
+}
+
+input[type='checkbox']:checked+label>ins {
+  height: 100%;
+}
+
+input[type='checkbox']:checked+label>span {
+  border: .5em solid #17A2B8;
+  animation: shrink-bounce 200ms cubic-bezier(.4, .0, .23, 1);
+  color: #FFFFFF;
+  border-radius: 2px;
+}
+
+input[type='checkbox']:checked+label>span:before {
+  content: "";
+  position: absolute;
+  top: .6em;
+  left: .2em;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  transform: rotate(45deg);
+  transform-origin: 0% 100%;
+  animation: checkbox-check 125ms 250ms cubic-bezier(.4, .0, .23, 1) forwards;
+
+}
+
+@keyframes shrink-bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  33% {
+    transform: scale(.85);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes checkbox-check {
+  0% {
+    width: 0;
+    height: 0;
+    border-color: #FFFFFF;
+    transform: translate3d(0, 0, 0) rotate(45deg);
+  }
+
+  33% {
+    width: .2em;
+    height: 0;
+    transform: translate3d(0, 0, 0) rotate(45deg);
+  }
+
+  100% {
+    width: .2em;
+    height: .5em;
+    border-color: #FFFFFF;
+    transform: translate3d(0, -.5em, 0) rotate(45deg);
+
+  }
+}
+
+/* courses */
+
+
+/* filtri */
+
+.Filtri {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 10px;
+
+  width: 367px;
+  height: 326px;
+}
+
+/* filtri */
+
+
+.footer {}

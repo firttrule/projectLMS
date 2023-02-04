@@ -53,10 +53,9 @@
 
 /* FOOTER */
 .footer {
-  margin: 0 auto;
-  max-width: 1140px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-bottom: 88px;
 }
 
 .footer_box_title {

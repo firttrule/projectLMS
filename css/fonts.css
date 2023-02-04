@@ -1,16 +1,14 @@
-@font-face { 
-    font-family: "Coolvetica";
-    src: url("../fonts/Coolvetica/coolvetica.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 400;
-}
-@font-face { 
-    font-family: "CirceRegular";
-    src: url("../fonts/CirceRegular/CirceRegular.eot");
-    src: url("../fonts/CirceRegular/CirceRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/CirceRegular/CirceRegular.woff") format("woff"),
-    url("../fonts/CirceRegular/CirceRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 400;
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto.ttf);
 }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url(../fonts/CirceRegular.ttf);
+}

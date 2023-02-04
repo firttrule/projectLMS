@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.c {
+  margin-top: 70px;
+  margin-bottom: 140px;
+  margin-left: 600px;
+  max-width: 753px;
+}
+
+._404 {
+  font-family: "Montserrat";
+  font-weight: bold ;
+  font-size: 64px;
+  line-height: 78px;
+  margin-bottom: 21px;
+}
+
+.btn {
+    font-family: "Circe";
+    font-size: 25px;
+    line-height: 160px;
+    text-decoration: none;
+    color: black;
+}
+
+.main_logo_img {
+    
+    width: 456px;
+    height: 456px;
+    
+}
+
+.main_logo {
+    width: 25px;
+    height: 25px;
+}

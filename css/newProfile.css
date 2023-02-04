@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f8f8f8;
+  margin: 0 auto;
+  max-width: 1140px;
+  font-family: "Circe";
+  font-size: 20px;
+}
+
+.info {
+  display: flex;
+  gap: 194px;
+  margin-bottom: 37px;
+}
+
+.info_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  height: 290px;
+  background: #ffffff;
+}
+
+.info_menu div {
+  display: flex;
+}
+
+.info_menu div img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.info_menu_item {
+  height: 25px;
+  border-radius: 25px;
+  margin-right: 13px;
+}
+
+.info_menu_item_link {
+  text-decoration: none;
+  font-family: "Circe";
+  font-size: 16px;
+  line-height: 24px;
+  color: #191919;
+}
+
+.info_menu_item:first-child {
+  margin-top: 20px;
+}
+
+.info_menu_item:last-child {
+  margin-bottom: 20px;
+}
+
+.info_menu_item:last-child a {
+  color: #d9d9d9;
+}
+
+.info_person_box {
+  display: flex;
+  width: 753px;
+  height: 290px;
+  background: rgba(217, 217, 217, 0.5);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.info_person_box_avatar {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
+
+.info_person_box_content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  top: 22px;
+  left: 196px;
+}
+
+.info_person_box_content h1 {
+  font-size: 36px;
+}
+
+.info_person_box_content_action {
+  display: flex;
+}
+
+.info_person_box_content_action p {
+  margin-right: 9px;
+}
+
+.info_person_box_content_action img {
+  cursor: pointer;
+}
+
+.info_progress {
+  width: 753px;
+  background: linear-gradient(to right, #008b9b 78%, rgba(5, 152, 90, 0.5) 22%);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info_progress p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f8f8f8;
+}
+
+.heading {
+  font-family: "Montserrat";
+}
+
+.courses_title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.courses {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.course_box_item {
+  width: 173px;
+  height: 163px;
+  background: #d9d9d9;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.course_box_item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.course_box_item img:hover {
+  cursor: pointer;
+}
+
+.course_box_title {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.actual {
+  margin-bottom: 34px;
+}
+
+.passed {
+  margin-bottom: 140px;
+}
