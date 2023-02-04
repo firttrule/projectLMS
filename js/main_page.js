@@ -10,6 +10,7 @@ setSlideListners(sliderBtnsList)
 function setClickListners(list,classNameVar) {
     for (let i = 0; i < list.length; i++) {
         list[i].addEventListener("click", function() {
+          alert('123')
           var current = document.getElementsByClassName(classNameVar);
           current[0].className = current[0].className.replace(classNameVar, "");
           this.className += classNameVar;

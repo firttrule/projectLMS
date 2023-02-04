@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="../js/current_courses.js"></script>
     <link rel="stylesheet" href="../css/current_courses.css" />
     <link rel="stylesheet" href="../css/header&footer.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
   </head>
 
   <body>
@@ -19,8 +24,36 @@
 
     <!-- MAIN -->
 
-    <main>
-    </main>
+    <main class="main_container">
+      <section class="idk_buttons_container">
+        <img src="../img/Занятия/Frame 2064.svg" alt="Человек">
+        <img src="../img/Занятия/Frame 2065.svg" alt="Кисть">
+        <img src="../img/Занятия/Frame 2066.svg" alt="Документ">
+        <img src="../img/Занятия/Frame 2067.svg" alt="Куб">
+        <img src="../img/Занятия/Frame 2068.svg" alt="Квадрат">
+      </section>
+
+      <section class="current_task_container">
+        <ul class="tasks">
+          <li class="task active_task">Лекция 1.1</li>
+          <li class="task">Практика 1.1</li>
+          <li class="task">Какие языки программирования бывают?</li>
+          <li class="task">Лекция 1.2</li>
+          <li class="task">Полезные материалы</li>
+          <li class="task">Домашнее задание</li>
+          <li class="task">Ответы на вопросы</li>
+          <li class="task">Практика 1.2</li>
+        </ul>
+      </section>
+      
+      <section class="task_content_container">
+        <div id="task_name" class="task_name">Лекция 1.1</div>
+        <div id="task_description" class="task_description">Ясность нашей позиции очевидна: социально-экономическое развитие обеспечивает актуальность благоприятных перспектив. С учётом сложившейся международной обстановки, базовый вектор развития однозначно определяет каждого участника как способного принимать собственные решения касаемо переосмысления внешнеэкономических политик. Учитывая ключевые сценарии поведения, социально-экономическое развитие обеспечивает актуальность направлений прогрессивного развития. Банальные, но неопровержимые выводы, а также действия представителей оппозиции могут быть функционально разнесены на независимые элементы. 
+          Являясь всего лишь частью общей картины, сторонники тоталитаризма в науке подвергнуты целой серии независимых исследований. Господа, высокое качество позиционных исследований говорит о возможностях первоочередных требований. 
+          Разнообразный и богатый опыт говорит нам, что глубокий уровень погружения требует от нас анализа соответствующих условий активизации. 
+          Не следует, однако, забывать, что высокое качество позиционных исследований требует анализа существующих финансовых и административных условий. А ещё стремящиеся вытеснить традиционное производство, нанотехнологии своевременно верифицированы. Лишь предприниматели в сети интернет разоблачены.</div>
+      </section>
+    </main> 
 
     <!-- MAIN -->
 
@@ -72,53 +105,5 @@
         </div>
       </section>
     </footer>
-
-    <!-- FOOTER -->
-
-    <script>
-      let btn_on = document.getElementById("btn_on");
-      let btn_off = document.getElementById("btn_off");
-      let main_menu = document.getElementById("main_menu");
-      let logo = document.getElementById("logo");
-      let picB = document.getElementById("picB");
-      let picBl = document.getElementById("picBl");
-
-      // MAIN MENU
-
-      function close() {
-        btn_off.style.display = "none";
-        btn_on.style.display = "block";
-        main_menu.style.marginTop = "-6vh";
-      }
-
-      function open() {
-        btn_off.style.display = "block";
-        btn_on.style.display = "none";
-        main_menu.style.marginTop = "0";
-      }
-
-      btn_on.onclick = function () {
-        open();
-      };
-
-      btn_off.onclick = function () {
-        close();
-      };
-
-      // MAIN MENU
-
-      //  MAIN PICTURES
-
-      logo.onmouseover = function () {
-        picB.style.opacity = "0";
-        picBl.style.opacity = "1";
-      };
-      logo.onmouseleave = function () {
-        picB.style.opacity = "1";
-        picBl.style.opacity = "0";
-      };
-
-      //  MAIN PICTURES
-    </script>
   </body>
 </html>
