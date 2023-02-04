@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/current_courses.css" />
+    <link rel="stylesheet" href="../css/header&footer.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+
+    <header>
+    </header>
+
+    <!-- HEADER -->
+
+    <!-- MAIN -->
+
+    <main>
+    </main>
+
+    <!-- MAIN -->
+
+    <!-- FOOTER -->
+
+    <footer>
+      <section class="footer">
+        <div class="footer_box">
+          <h2 class="footer_box_title h2 text2">Информация</h2>
+          <ul class="footer_box_list">
+            <li class="footer_box_list_item text2">
+              <a class="footer_box_list_item_link text2" href="#">Главная</a>
+            </li>
+            <li class="footer_box_list_item">
+              <a class="footer_box_list_item_link text2" href="#">Курсы</a>
+            </li>
+            <li class="footer_box_list_item">
+              <a class="footer_box_list_item_link text2" href="#">О нас</a>
+            </li>
+            <li class="footer_box_list_item">
+              <a class="footer_box_list_item_link text2" href="#"
+                >Личный кабинет</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_box">
+          <h2 class="footer_box_title h2 text2">Местоположение</h2>
+          <div class="footer_box_gps">
+            <img class="footer_box_gps_img" src="../img/gps.png" alt="gps" />
+          </div>
+        </div>
+
+        <div class="footer_box">
+          <h2 class="footer_box_title h2 text2">Контакты</h2>
+          <ul class="footer_box_list">
+            <li class="footer_box_list_item">
+              <a class="footer_box_list_item_link text2" href="#">instagram</a>
+            </li>
+            <li class="footer_box_list_item">
+              <a
+                class="footer_box_list_item_link text2"
+                href="https://vk.com/cyberclass_volok"
+                >vk</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+
+    <!-- FOOTER -->
+
+    <script>
+      let btn_on = document.getElementById("btn_on");
+      let btn_off = document.getElementById("btn_off");
+      let main_menu = document.getElementById("main_menu");
+      let logo = document.getElementById("logo");
+      let picB = document.getElementById("picB");
+      let picBl = document.getElementById("picBl");
+
+      // MAIN MENU
+
+      function close() {
+        btn_off.style.display = "none";
+        btn_on.style.display = "block";
+        main_menu.style.marginTop = "-6vh";
+      }
+
+      function open() {
+        btn_off.style.display = "block";
+        btn_on.style.display = "none";
+        main_menu.style.marginTop = "0";
+      }
+
+      btn_on.onclick = function () {
+        open();
+      };
+
+      btn_off.onclick = function () {
+        close();
+      };
+
+      // MAIN MENU
+
+      //  MAIN PICTURES
+
+      logo.onmouseover = function () {
+        picB.style.opacity = "0";
+        picBl.style.opacity = "1";
+      };
+      logo.onmouseleave = function () {
+        picB.style.opacity = "1";
+        picBl.style.opacity = "0";
+      };
+
+      //  MAIN PICTURES
+    </script>
+  </body>
+</html>
