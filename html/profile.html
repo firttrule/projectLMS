@@ -1,168 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/profile.css" />
-    <link rel="stylesheet" href="../css/header&footer.css" />
-  </head>
-  <body>
-    <header>
-      <section class="header">
-        <div class="header_logo">
-          <img class="header_logo_img" src="../img/LogoNB.png" alt="logo" />
-        </div>
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/headerS&footer.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+</head>
 
-        <div class="header_menu">
-          <a href="#" class="header_menu_link">Главная</a>
-          <a href="#" class="header_menu_link">Курсы</a>
-          <a href="#" class="header_menu_link">О нас</a>
-          <a onclick="window.location.href='registration.html'" href="#" class="header_menu_link reg_btn">Регистрация</a>
+<body>
+    <header class="header">
+        <div class="header_container">
+            <!-- <div class="header_logo">
+                <img src="../img/LogoNB.png" alt="Logo" />
+            </div> -->
+
+            <div class="header_search">
+                <input type="text" placeholder="Search" />
+                <img src="../img/Search.png" alt="Search">
+            </div>
         </div>
-      </section>
     </header>
 
-    <main>
-      <section>
-        <div class="profile">
-          <div class="profile_box">
-            <div class="profile_user">
-              <div class="profile_user_photo">
-                <img
-                  class="profile_user_photo_img"
-                  src="../img/Ellipse 52.png"
-                  alt="user photo"
-                />
-              </div>
+    <main class="main">
+        <section class="info">
+            <div class="info_menu">
+                <div class="info_menu_item">
+                    <img src="../img/profile.png" alt="Profile">
+                    <a class="info_menu_item_link" href="#">Личный кабинет</a>
+                </div>
 
-              <div class="profile_user_info">
-                <h1 class="profile_user_info_title h1 text1">Пётр Петрович</h1>
-                <p class="profile_user_info_content text1">Возраст</p>
-                <p class="profile_user_info_content text1">Курс: Разработчик</p>
-                <p class="profile_user_info_content text1">
-                  Информация о курсе
-                </p>
-              </div>
+                <div class="info_menu_item">
+                    <img src="../img/designtools.png" alt="Lessons">
+                    <a class="info_menu_item_link" href="#">Занятия</a>
+                </div>
+
+                <div class="info_menu_item">
+                    <img src="../img/documenttext.png" alt="Homework">
+                    <a class="info_menu_item_link" href="#">Домашнее задание</a>
+                </div>
+
+                <div class="info_menu_item">
+                    <img src="../img/notification1.png" alt="Chats">
+                    <a class="info_menu_item_link" href="#">Чаты</a>
+                </div>
+
+                <div class="info_menu_item">
+                    <img src="../img/box1.png" alt="Choose a course">
+                    <a class="info_menu_item_link" href="#">Выбрать курс</a>
+                </div>
+
+                <div class="info_menu_item">
+                    <img src="../img/logoutcurve.png" alt="">
+                    <a class="info_menu_item_link" href="#">Выход</a>
+                </div>
             </div>
 
-            <div class="profile_box_btn">
-              <a class="profile_box_btn_item text1" href="#"
-                >Домашнее задание</a
-              >
-              <a class="profile_box_btn_item text1" href="#"
-                >Записаться на курс</a
-              >
-              <a class="profile_box_btn_item text1" href="#">Чаты</a>
-              <a class="profile_box_btn_item text1" href="#"
-                >Домашнее задание</a
-              >
+            <div class="info_person">
+                <div class="info_person_box">
+                    <div class="info_person_box_avatar">
+                        <img src="../img/Ellipse 52.png" alt="Avatar" class="info_person_image" />
+                    </div>
+
+                    <div class="info_person_box_content">
+                        <h1 class="heading">Пётр Петрович</h1>
+                        <p>Возвраст: 19</p>
+                        <p>Актуальные курсы: Курс: Разработчик</p>
+                        <div class="info_person_box_content_action">
+                            <p>Информация о курсе</p>
+                            <img src="../img/Chevron_right.png" alt="Chevron">
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="info_progress">
+                    <p class="heading">78%</p>
+                </div>
             </div>
-          </div>
+        </section>
 
-          <div class="profile_ach">
-            <h3 class="profile_ach_title h3 text1">Достижения</h3>
-          </div>
-        </div>
+        <section class="actual-passed">
+            <div class="actual">
+                <h2 class="courses_title heading">Актуальные курсы</h2>
+                <div class="courses">
+                    <div class="course_box">
+                        <div onclick="window.location.href='LMS_current_courses.html'" class="course_box_item">
+                            <img src="../img/scratch1.png" alt="Course" class="course__box_image" />
+                        </div>
 
-        <div class="profile_progress">
-          <p class="profile_progress_counter text1">78%</p>
-        </div>
-      </section>
+                        <h3 class="course_box_title">Scratch</h3>
+                    </div>
 
-      <section class="actual">
-        <h2 class="actual_title h2 text2">Актуальные курсы</h2>
-        <div class="actual_box">
-          <div>
-            <img
-              class="actual_box_img course_img"
-              src="../img/courses_img.png"
-              alt="course image"
-            />
-            <h4 class="actual_box_title h4 text2">Разработчик C</h4>
-          </div>
+                    <div class="course_box">
+                        <div onclick="window.location.href='LMS_current_courses.html'" class="course_box_item">
+                            <img src="../img/python.png" alt="Course" class="course__box_image" />
+                        </div>
 
-          <div>
-            <img
-              class="actual_box_img course_img"
-              src="../img/courses_img.png"
-              alt="course image"
-            />
-            <h4 class="actual_box_title h4 text2">Веб - дизайнер</h4>
-          </div>
-        </div>
-      </section>
+                        <h3 class="course_box_title">Python Start</h3>
+                    </div>
+                </div>
+            </div>
 
-      <section class="passed">
-        <h2 class="passed_title h2 text2">Пройденные курсы</h2>
-        <div class="passed_box">
-          <div>
-            <img
-              class="passed_box_img course_img"
-              src="../img/courses_img.png"
-              alt="course image"
-            />
-            <h4 class="passed_box_title h4 text2">Разработчик C</h4>
-          </div>
+            <div class="passed">
+                <h2 class="courses_title heading">Пройденные курсы</h2>
+                <div class="courses">
+                    <div class="course_box">
+                        <div onclick="window.location.href='LMS_current_courses.html'" class="course_box_item">
+                            <img src="../img/scratch2.png" alt="Course" class="course__box_image" />
+                        </div>
 
-          <div>
-            <img
-              class="passed_box_img course_img"
-              src="../img/courses_img.png"
-              alt="course image"
-            />
-            <h4 class="passed_box_title h4 text2">Веб - дизайнер</h4>
-          </div>
-        </div>
-      </section>
+                        <h3 class="course_box_title">Scrath</h3>
+                    </div>
+
+                    <div class="course_box">
+                        <div onclick="window.location.href='LMS_current_courses.html'" class="course_box_item">
+                            <img src="../img/php.png" alt="Course" class="course__box_image" />
+                        </div>
+
+                        <h3 class="course_box_title">PHP</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-      <section class="footer">
+    <footer class="footer">
         <div class="footer_box">
-          <h2 class="footer_box_title h2 text2">Информация</h2>
-          <ul class="footer_box_list">
-            <li class="footer_box_list_item text2">
-              <a class="footer_box_list_item_link text2" href="#">Главная</a>
-            </li>
-            <li class="footer_box_list_item">
-              <a class="footer_box_list_item_link text2" href="#">Курсы</a>
-            </li>
-            <li class="footer_box_list_item">
-              <a class="footer_box_list_item_link text2" href="#">О нас</a>
-            </li>
-            <li class="footer_box_list_item">
-              <a class="footer_box_list_item_link text2" href="#"
-                >Личный кабинет</a
-              >
-            </li>
-          </ul>
+            <h2 class="footer_box_title">Информация</h2>
+            <ol class="footer_box_list">
+                <li><a href="../html/main_page.html" class="footer_box_list_item">Главная</a></li>
+                <li><a href="../html/courses.html" class="footer_box_list_item">Курсы</a></li>
+                <li><a href="#" class="footer_box_list_item">О нас</a></li>
+                <li><a href="../html/profile.html" class="footer_box_list_item">Личный кабинет</a></li>
+            </ol>
         </div>
 
         <div class="footer_box">
-          <h2 class="footer_box_title h2 text2">Местоположение</h2>
-          <div class="footer_box_gps">
-            <img class="footer_box_gps_img" src="../img/gps.png" alt="gps" />
-          </div>
+            <h2 class="footer_box_title">Контакты</h2>
+            <ol class="footer_box_list">
+                <li><a href="https://yandex.ru/maps/?um=constructor%3Ad499c2ffbb5ed73d0561099773c2f551dccfb4a15d0237d275bd69397c24c2f4&source=constructorLink"
+                        class="footer_box_list_item footer_navigate"><img src="../img/gps.png" alt="Navigate"></a></li>
+            </ol>
         </div>
 
-        <div class="footer_box">
-          <h2 class="footer_box_title h2 text2">Контакты</h2>
-          <ul class="footer_box_list">
-            <li class="footer_box_list_item">
-              <a class="footer_box_list_item_link text2" href="#">instagram</a>
-            </li>
-            <li class="footer_box_list_item">
-              <a
-                class="footer_box_list_item_link text2"
-                href="https://vk.com/cyberclass_volok"
-                >vk</a
-              >
-            </li>
-          </ul>
+        <div class="footer_box footer_info">
+            <p class="footer_info_subtitle">По любым вопросам звоните или пишите в техническую поддержку.</p>
+            <p class="footer_info_text">
+                Наш адрес: <br>
+                Школьная улица, 9А, Волоколамск, Московская область
+            </p>
+            <div class="footer_info_box">
+                <a href="https://vk.com/cyberclass_volok" class="footer_info_box_item"><img src="../img/Rectangle 3.png"
+                        alt="Vk"></a>
+
+                <a href="#" class="footer_info_box_item"><img src="../img/Rectangle 3.png" alt="Instagram"></a>
+            </div>
         </div>
-      </section>
     </footer>
-  </body>
+</body>
+
 </html>
