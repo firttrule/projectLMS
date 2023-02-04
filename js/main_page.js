@@ -1,6 +1,6 @@
 window.onload = function(){
-var courseList = document.getElementsByClassName('course-type-btn')
-var ageList = document.getElementsByClassName('course-age-btn')
+var courseList = document.getElementsByClassName('course_type_btn')
+var ageList = document.getElementsByClassName('course_age_btn')
 var sliderBtnsList = document.getElementsByClassName('slider_btn')
 var coursesLine = document.getElementById('coursesLine')
 setClickListners(courseList,' course_type_btn_active')
@@ -10,7 +10,6 @@ setSlideListners(sliderBtnsList)
 function setClickListners(list,classNameVar) {
     for (let i = 0; i < list.length; i++) {
         list[i].addEventListener("click", function() {
-          alert('123')
           var current = document.getElementsByClassName(classNameVar);
           current[0].className = current[0].className.replace(classNameVar, "");
           this.className += classNameVar;
