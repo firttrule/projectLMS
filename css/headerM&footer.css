@@ -17,7 +17,7 @@ body {
 .header {
   display: flex;
   justify-content: end;
-  margin-top: 50px;
+  margin: 50px 0px;
 }
 
 .header_menu {
