@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background: #f8f8f8;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: end;
+  margin: 50px auto;
+  width: 1140px;
+}
+
+.header_menu {
+  display: flex;
+  gap: 129px;
+}
+
+.header_menu_box {
+  display: flex;
+  gap: 80px;
+  padding-left: 44px;
+  padding-right: 72px;
+}
+
+.header_menu_box_link,
+.reg_btn {
+  font-family: "Circe";
+  font-size: 32px;
+  line-height: 47px;
+  color: #101010;
+  text-decoration: none;
+}
+
+.reg_btn {
+  background: #008b9b;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 10px 15px;
+}
+/* HEADER */
+
+/* ---FOOTER--- */
+.footer {
+  display: flex;
+  justify-content: space-between; /* ВЕРНИСЬ СЮДА */
+  width: 1140px;
+  margin: 0 auto 70px;
+}
+
+.footer_box {
+}
+
+.footer_box_title {
+  font-family: "Montserrat";
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.footer_box_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer_box_list_item,
+.footer_info_subtitle,
+.footer_info_text {
+  text-decoration: none;
+  font-family: "Circe";
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.footer_navigate img {
+  width: 270.5px;
+  height: 182px;
+}
+
+.footer_info {
+  width: 463px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_info_box {
+  display: flex;
+  gap: 20px;
+}
+
+.footer_info_text {
+  font-size: 16px;
+  line-height: 24px;
+}
+/* ---FOOTER--- */

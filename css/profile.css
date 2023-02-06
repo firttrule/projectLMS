@@ -4,133 +4,169 @@
 }
 
 body {
-  max-width: 1440px;
+  background: #f8f8f8;
   margin: 0 auto;
+  max-width: 1140px;
+  font-family: "Circe";
+  font-size: 20px;
 }
 
-/* MAIN */
-.profile_box,
-.profile_ach {
-  background: #d9d9d9;
+.main {
+  margin-top: 80px;
+}
+
+.info {
+  display: flex;
+  gap: 194px;
+  margin-bottom: 37px;
+}
+
+.info_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  height: 290px;
+  background: #ffffff;
+}
+
+.info_menu div {
+  display: flex;
+}
+
+.info_menu div img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.info_menu_item {
+  height: 25px;
   border-radius: 25px;
+  margin-right: 13px;
 }
 
-.profile_box {
-  width: 850px;
-  height: 288px;
+.info_menu_item_link {
+  text-decoration: none;
+  font-family: "Circe";
+  font-size: 16px;
+  line-height: 24px;
+  color: #191919;
 }
 
-.profile {
+.info_menu_item:first-child {
+  margin-top: 20px;
+}
+
+.info_menu_item:last-child {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.info_menu_item:last-child a {
+  color: #d9d9d9;
+}
+
+.info_person_box {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 17px;
+  width: 753px;
+  height: 290px;
+  background: rgba(217, 217, 217, 0.5);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 35px;
 }
 
-.profile_user {
-  padding: 30px 0px 0px 25px;
+.info_person_box_avatar {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
+
+.info_person_box_content {
+  position: absolute;
   display: flex;
-  justify-content: start;
-  margin-bottom: 60px;
+  flex-direction: column;
+  gap: 5px;
+  top: 22px;
+  left: 196px;
 }
 
-.profile_user_photo {
-  margin-right: 33px;
-}
-
-.text1 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  color: #000000;
-}
-
-.h1 {
-  font-weight: 500;
+.info_person_box_content h1 {
   font-size: 36px;
-  line-height: 42px;
-  margin-bottom: 4px;
 }
 
-.profile_user_info_content,
-h3 {
-  font-size: 24px;
-  line-height: 28px;
+.info_person_box_content_action {
+  display: flex;
 }
 
-.profile_ach {
-  width: 270px;
-  height: 288px;
+.info_person_box_content_action p {
+  margin-right: 9px;
+}
+
+.info_person_box_content_action img {
+  cursor: pointer;
+}
+
+.info_progress {
+  width: 753px;
+  background: linear-gradient(to right, #008b9b 78%, rgba(5, 152, 90, 0.5) 22%);
+  border-radius: 25px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.profile_ach_title {
-  padding-top: 11px;
+.info_progress p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f8f8f8;
 }
 
-.profile_user_info_content {
-  margin-bottom: 6px;
+.heading {
+  font-family: "Montserrat";
 }
 
-.profile_box_btn {
-  padding-left: 97px;
-  display: flex;
-  gap: 21px;
-}
-.profile_box_btn_item {
-  font-size: 16px;
-  line-height: 19px;
-  text-decoration: none;
-  display: inline-block;
-  width: 172px;
-  height: 27px;
-  background: #ffffff;
-  border-radius: 25px;
-  text-align: center;
-  padding-top: 4px;
-  margin-bottom: 29px;
-}
-
-.profile_progress {
-  background: #aaaf87;
-  border-radius: 25px;
-  margin-bottom: 66px;
-}
-
-.profile_progress_counter {
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-}
-
-.text2 {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  color: #000000;
-}
-
-.h2 {
+.courses_title {
   font-size: 32px;
-  line-height: 44px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-.actual_box,
-.passed_box {
+.courses {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
-.course_img {
+.course_box_item {
   width: 173px;
-  height: 176px;
-  margin-bottom: 15px;
+  height: 163px;
+  background: #d9d9d9;
+  border-radius: 25px;
+  margin-bottom: 10px;
 }
 
-.h4 {
-  font-size: 20px;
-  line-height: 27px;
-  margin-bottom: 71px;
+.course_box_item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
 }
-/* MAIN */
+
+.course_box_item img:hover {
+  cursor: pointer;
+}
+
+.course_box_title {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.actual {
+  margin-bottom: 34px;
+}
+
+.passed {
+  margin-bottom: 140px;
+}
