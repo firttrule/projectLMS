@@ -11,6 +11,10 @@ body {
   font-size: 20px;
 }
 
+.main {
+  margin-top: 80px;
+}
+
 .info {
   display: flex;
   gap: 194px;
@@ -20,7 +24,7 @@ body {
 .info_menu {
   display: flex;
   flex-direction: column;
-  gap: 21px;
+  gap: 28px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   height: 290px;
@@ -55,6 +59,7 @@ body {
 }
 
 .info_menu_item:last-child {
+  margin-top: 16px;
   margin-bottom: 20px;
 }
 
