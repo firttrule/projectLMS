@@ -55,7 +55,7 @@ function setClickListners(list,classNameVar) {
             filterBox.forEach( elem => {
               
             if (typeFilter != 'all' && ageFilter != 'all'){
-                if ((elem.dataset['f'] != typeFilter) || (elem.dataset['fage'] != ageFilter)) {elem.classList.add('hide')} else {elem.classList.remove('hide')}}
+                if ((elem.dataset['f'] != typeFilter) || (Number(elem.dataset['fage']) > Number(ageFilter))) {elem.classList.add('hide')} else {elem.classList.remove('hide')}}
 
             if (typeFilter == 'all' && ageFilter != 'all') {if (Number(elem.dataset['fage']) > Number(ageFilter)) {elem.classList.add('hide')} else {elem.classList.remove('hide')}}
 
