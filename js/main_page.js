@@ -12,8 +12,8 @@ let offset = 0;
 var currentActiveSlide = 0;
 setClickListners(courseList,' course_type_btn_active')
 setClickListners(ageList,' course_age_btn_active')
-setClickListners(sliderBtnsList,' slider_btn_active')
-setSlideListners(sliderBtnsList)
+//setClickListners(sliderBtnsList,' slider_btn_active')
+//setSlideListners(sliderBtnsList)
 
 
 rightArrow.onclick=function() {
@@ -65,6 +65,12 @@ function setClickListners(list,classNameVar) {
 
             });
           }
+          offset = 0;
+          coursesLine.style.right = offset + 'px';
+          sliderBtnsList[currentActiveSlide].classList.remove('slider_btn_active')
+          currentActiveSlide = 0;
+          sliderBtnsList[currentActiveSlide].classList.add('slider_btn_active')
+
 
           var current = document.getElementsByClassName(classNameVar);
           current[0].className = current[0].className.replace(classNameVar, "");
