@@ -96,16 +96,26 @@ body {
   font-size: 36px;
 }
 
-.info_person_box_content_action {
-  display: flex;
+/* Убираем стандартный маркер Chrome */
+details summary::-webkit-details-marker {
+  display: none
+}
+/* Убираем стандартный маркер Firefox */
+details > summary {
+  list-style: none;
 }
 
-.info_person_box_content_action p {
-  margin-right: 9px;
+/* Добавляем собственный маркер для закрытого состояния */
+details summary:after {
+  content: '\2228';
+  margin-right: 7px;
+  margin-left: 9px;
+  transform: rotate(90deg)
 }
 
-.info_person_box_content_action img {
-  cursor: pointer;
+/* Добавляем собственный маркер для открытого состояния */
+details[open] summary:after {
+  content: '\2227';
 }
 
 .info_progress {
