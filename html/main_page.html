@@ -1,38 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="../js/main_page.js"></script>
-    <link rel="stylesheet" href="../css/profile.css" />
-    <link rel="stylesheet" href="../css/headerM&footer.css" />
-    <link rel="stylesheet" href="../css/login&registration.css" />
-    <link rel="stylesheet" href="../css/main_page.css" />
-    <link rel="stylesheet" href="../css/fonts.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  </head>
-  <body class="main_background">
-    <header>
-      <section class="header">
-          <div class="header_menu">
-              <div class="header_menu_box">
-                  <a href="../html/main_page.html" class="header_menu_box_link">Главная</a>
-                  <a href="../html/courses.html" class="header_menu_box_link">Курсы</a>
-                  <a href="#" class="header_menu_box_link">О нас</a>
-              </div>
 
-<<<<<<< Updated upstream
-              <a href="../html/registration.html" class="reg_btn">Зарегистрироваться</a>
-          </div>
-      </section>
-  </header>
-    <div class="upper_section">
-      <h1 class="upper_text">Учим программированию, созданию игр, digital - искусству и полезным вещам IT.</h1>
-      <img class="woman_img" src="../img/online_meetings.png"  alt="woman">
-    </div>
-=======
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -63,12 +31,11 @@
     <h1 class="upper_text">Учим программированию, созданию игр, digital - искусству и полезным вещам IT.</h1>
     <img class="woman_img" src="../img/online_meetings.png" alt="woman">
   </div>
->>>>>>> Stashed changes
 
   <main>
 
 
-
+    <section class="main_container">
       <div class="benefits_cards_container">
         <div class="benefit_card">
           <img class="benefit_card_img" src="../img/Rectangle.png" />
@@ -110,103 +77,119 @@
           <li data-fAge="14" class="course_age_btn">14+</li>
         </ul>
       </div>
-
+    </section>
+    <div class="courses">
+      <img src="../img/arrowleft2.svg" alt="Left" class="arrows" id="leftArrow">
       <div class="courses_container">
-        <div id="coursesLine" class="courses-line">
-          <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1908.png" alt="Scratch"/>
+        <div id="coursesLine" class="courses_line">
+          <div data-f="GameDev" data-fAge="6" class="course_card">
+            <img class="course_card_img" src="../img/Frame 1908.png" alt="Scratch" />
             <div class="course_description_container">
               <div class="course_card_name">Scrath</div>
-              <div class="course_card_description">Визуальная среда программирования, которая позволяет детям создавать собственные анимированные интерактивные игры и проекты.</div>
+              <div class="course_card_description">Визуальная среда программирования, которая позволяет детям создавать
+                собственные анимированные интерактивные игры и проекты.</div>
             </div>
           </div>
-          <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1909.png" alt="HTML + CSS + JavaScript"/>
+          <div data-f="DigitalArt" data-fAge="12" class="course_card">
+            <img class="course_card_img" src="../img/Frame 1909.png" alt="HTML + CSS + JavaScript" />
             <div class="course_description_container">
               <div class="course_card_name">HTML + CSS + JavaScript</div>
               <div class="course_card_description">Создание динамической страницы сайта. Научим программированию.</div>
             </div>
           </div>
-          <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1910.png" alt="Python Start"/>
+          <div data-f="Dev" data-fAge="14" class="course_card">
+            <img class="course_card_img" src="../img/Frame 1910.png" alt="Python Start" />
             <div class="course_description_container">
               <div class="course_card_name">Python Start</div>
-              <div class="course_card_description">Язык программирования, входящий в топ-10 самых востребованных языков программирования.  Используется при создании сайтов и приложений.</div>
+              <div class="course_card_description">Язык программирования, входящий в топ-10 самых востребованных языков
+                программирования. Используется при создании сайтов и приложений.</div>
             </div>
           </div>
-          <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1911.png" alt="PHP"/>
+          <div data-f="Being" data-fAge="9" class="course_card">
+            <img class="course_card_img" src="../img/Frame 1911.png" alt="PHP" />
             <div class="course_description_container">
               <div class="course_card_name">PHP</div>
-              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий на серверной стороне. Используется во всех сферах IT.</div>
+              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий
+                на серверной стороне. Используется во всех сферах IT.</div>
             </div>
           </div>
           <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1911.png" alt="test1"/>
+            <img class="course_card_img" src="../img/Frame 1911.png" alt="test1" />
             <div class="course_description_container">
               <div class="course_card_name">test1</div>
-              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий на серверной стороне. Используется во всех сферах IT.</div>
+              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий
+                на серверной стороне. Используется во всех сферах IT.</div>
             </div>
           </div>
           <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1911.png" alt="test2"/>
+            <img class="course_card_img" src="../img/Frame 1911.png" alt="test2" />
             <div class="course_description_container">
               <div class="course_card_name">test2</div>
-              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий на серверной стороне. Используется во всех сферах IT.</div>
+              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий
+                на серверной стороне. Используется во всех сферах IT.</div>
             </div>
           </div>
           <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1911.png" alt="test3"/>
+            <img class="course_card_img" src="../img/Frame 1911.png" alt="test3" />
             <div class="course_description_container">
               <div class="course_card_name">test3</div>
-              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий на серверной стороне. Используется во всех сферах IT.</div>
+              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий
+                на серверной стороне. Используется во всех сферах IT.</div>
             </div>
           </div>
           <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1911.png" alt="test4"/>
+            <img class="course_card_img" src="../img/Frame 1911.png" alt="test4" />
             <div class="course_description_container">
               <div class="course_card_name">test4</div>
-              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий на серверной стороне. Используется во всех сферах IT.</div>
+              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий
+                на серверной стороне. Используется во всех сферах IT.</div>
             </div>
           </div>
           <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1911.png" alt="test5"/>
+            <img class="course_card_img" src="../img/Frame 1911.png" alt="test5" />
             <div class="course_description_container">
               <div class="course_card_name">test5</div>
-              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий на серверной стороне. Используется во всех сферах IT.</div>
+              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий
+                на серверной стороне. Используется во всех сферах IT.</div>
             </div>
           </div>
           <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1911.png" alt="test6"/>
+            <img class="course_card_img" src="../img/Frame 1911.png" alt="test6" />
             <div class="course_description_container">
               <div class="course_card_name">test6</div>
-              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий на серверной стороне. Используется во всех сферах IT.</div>
+              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий
+                на серверной стороне. Используется во всех сферах IT.</div>
             </div>
           </div>
           <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1911.png" alt="test7"/>
+            <img class="course_card_img" src="../img/Frame 1911.png" alt="test7" />
             <div class="course_description_container">
               <div class="course_card_name">test7</div>
-              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий на серверной стороне. Используется во всех сферах IT.</div>
+              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий
+                на серверной стороне. Используется во всех сферах IT.</div>
             </div>
           </div>
           <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1911.png" alt="test8"/>
+            <img class="course_card_img" src="../img/Frame 1911.png" alt="test8" />
             <div class="course_description_container">
               <div class="course_card_name">test8</div>
-              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий на серверной стороне. Используется во всех сферах IT.</div>
+              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий
+                на серверной стороне. Используется во всех сферах IT.</div>
             </div>
           </div>
           <div class="course_card">
-            <img class="course_card_img" src="../img/Frame 1911.png" alt="test9"/>
+            <img class="course_card_img" src="../img/Frame 1911.png" alt="test9" />
             <div class="course_description_container">
               <div class="course_card_name">test9</div>
-              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий на серверной стороне. Используется во всех сферах IT.</div>
+              <div class="course_card_description">Интерпретируемый язык программирования общего назначения, работающий
+                на серверной стороне. Используется во всех сферах IT.</div>
             </div>
           </div>
         </div>
       </div>
-
+      <img src="../img/arrowright2.svg" alt="Right" class="arrows" id="rightArrow">
+    </div>
+    <section class="main_container">
       <div class="slider_btns_line">
         <ul class="slider_btn_list">
           <li class="slider_btn slider_btn_active"></li>
@@ -219,8 +202,10 @@
       <div class="test_container">
         <div class="test_container_left">
           <div class="text1_test">Не знаете, какой курс вам подходит?</div>
-          <div class="text2_test" >Мы поможем выбрать курс на основе результата теста</div>
-          <div class="see_test_btn">Пройти тест</div>
+          <div class="text2_test">Мы поможем выбрать курс на основе результата теста</div>
+          <a href="https://vk.com/app5708398_-155119660">
+            <div class="see_test_btn">Пройти тест</div>
+          </a>
         </div>
         <img class="test_img" src="../img/Rectangle 5.png" />
       </div>
@@ -240,44 +225,45 @@
           <div class="benefits_header">03</div>
           <div class="benefits_desc">Обратная связь от преподователей</div>
         </div>
-    </div>
-    <div class="review_section">
-      <div class="reviews">Отзывы</div>
-      <div class="flex_container">
-        <div class="review_card">
-          <div class="reviewer_photo"></div>
-          <div class="reviewer_inf_container">
-            <div class="reviewer_name">Андрей Петрович</div>
-            <div class="reviewer_course">Scrath</div>
-            <div class="reviewer_reviwe">Курс замечательный! Многое попробовали и научились практическим навыкам</div>
+      </div>
+      <div class="review_section">
+        <div class="reviews">Отзывы</div>
+        <div class="flex_container">
+          <div class="review_card">
+            <div class="reviewer_photo"></div>
+            <div class="reviewer_inf_container">
+              <div class="reviewer_name">Андрей Петрович</div>
+              <div class="reviewer_course">Scrath</div>
+              <div class="reviewer_reviwe">Курс замечательный! Многое попробовали и научились практическим навыкам</div>
+            </div>
           </div>
-        </div>
-        <div class="review_card">
-          <div class="reviewer_photo"></div>
-          <div class="reviewer_inf_container">
-            <div class="reviewer_name">Андрей Петрович</div>
-            <div class="reviewer_course">Python Start</div>
-            <div class="reviewer_reviwe">Очень подробно и интересно рассказывают материал, всё понравилось!</div>
+          <div class="review_card">
+            <div class="reviewer_photo"></div>
+            <div class="reviewer_inf_container">
+              <div class="reviewer_name">Андрей Петрович</div>
+              <div class="reviewer_course">Python Start</div>
+              <div class="reviewer_reviwe">Очень подробно и интересно рассказывают материал, всё понравилось!</div>
+            </div>
           </div>
-        </div>
-        <div class="review_card">
-          <div class="reviewer_photo"></div>
-          <div class="reviewer_inf_container">
-            <div class="reviewer_name">Андрей Петрович</div>
-            <div class="reviewer_course">Веб - программирование</div>
-            <div class="reviewer_reviwe">Отличные преподователи, удобная система обучения, качество хорошее</div>
+          <div class="review_card">
+            <div class="reviewer_photo"></div>
+            <div class="reviewer_inf_container">
+              <div class="reviewer_name">Андрей Петрович</div>
+              <div class="reviewer_course">Веб - программирование</div>
+              <div class="reviewer_reviwe">Отличные преподователи, удобная система обучения, качество хорошее</div>
+            </div>
           </div>
-        </div>
-        <div class="review_card">
-          <div class="reviewer_photo"></div>
-          <div class="reviewer_inf_container">
-            <div class="reviewer_name">Андрей Петрович</div>
-            <div class="reviewer_course">Веб - программирование</div>
-            <div class="reviewer_reviwe">Большой выбор курсов и хорошие цены. Вежливые менеджеры и преподователи</div>
+          <div class="review_card">
+            <div class="reviewer_photo"></div>
+            <div class="reviewer_inf_container">
+              <div class="reviewer_name">Андрей Петрович</div>
+              <div class="reviewer_course">Веб - программирование</div>
+              <div class="reviewer_reviwe">Большой выбор курсов и хорошие цены. Вежливые менеджеры и преподователи</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
   </main>
 
