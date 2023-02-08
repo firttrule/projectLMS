@@ -11,7 +11,7 @@ body {
 
 .main {
   max-width: 1140px;
-  margin: 80px auto 0 auto;
+  margin: 40px auto 0;
 }
 
 .info {
@@ -98,7 +98,7 @@ body {
 
 /* Убираем стандартный маркер Chrome */
 details summary::-webkit-details-marker {
-  display: none
+  display: none;
 }
 /* Убираем стандартный маркер Firefox */
 details > summary {
@@ -107,15 +107,15 @@ details > summary {
 
 /* Добавляем собственный маркер для закрытого состояния */
 details summary:after {
-  content: '\2228';
+  content: "\2228";
   margin-right: 7px;
   margin-left: 9px;
-  transform: rotate(90deg)
+  transform: rotate(90deg);
 }
 
 /* Добавляем собственный маркер для открытого состояния */
 details[open] summary:after {
-  content: '\2227';
+  content: "\2227";
 }
 
 .info_progress {
@@ -178,4 +178,12 @@ details[open] summary:after {
 
 .passed {
   margin-bottom: 140px;
+}
+
+.course_box {
+  transition: 0.4s;
+}
+
+.course_box:hover {
+  transform: scale(1.1);
 }

@@ -4,7 +4,10 @@
 }
 
 body {
-  margin: 0 auto;
+}
+
+.main {
+  margin: 40px auto 0;
   width: 1140px;
 }
 
@@ -17,28 +20,26 @@ body {
 
 ._404 {
   font-family: "Montserrat";
-  font-weight: bold ;
+  font-weight: bold;
   font-size: 64px;
   line-height: 78px;
   margin-bottom: 21px;
 }
 
 .btn {
-    font-family: "Circe";
-    font-size: 25px;
-    line-height: 160px;
-    text-decoration: none;
-    color: black;
+  font-family: "Circe";
+  font-size: 25px;
+  line-height: 160px;
+  text-decoration: none;
+  color: black;
 }
 
 .main_logo_img {
-    
-    width: 456px;
-    height: 456px;
-    
+  width: 456px;
+  height: 456px;
 }
 
 .main_logo {
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
 }
