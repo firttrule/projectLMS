@@ -1,6 +1,11 @@
 main {
-    max-width: 1140px;
+    max-width: 1240px;
     margin: 0 auto 79px auto;
+}
+
+.main_container {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .main_background {
@@ -12,7 +17,14 @@ main {
     max-width: 1440px;
     width: 100%;
     height: 538px;
+    margin: 0 auto;
     background: linear-gradient(90deg, #360033 0%, #0B8793 100%);
+}
+
+.arrows {
+    height: 50px;
+    cursor: pointer;
+    margin-top: 150px;
 }
 
 .upper_text {
@@ -95,6 +107,10 @@ main {
     height: 24px;
 }
 
+.courses {
+    display: flex;
+}
+
 .courses_container {
     overflow: hidden;
     display: flex;
@@ -103,7 +119,7 @@ main {
     height: 324px;
 }
 
-.courses-line {
+.courses_line {
     display: flex;
     position: relative;
     right: 0;
@@ -343,6 +359,13 @@ main {
 
 .review_section {
     margin-top: 64px;
+}
+
+.hide {
+    margin: 0;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
 }
 
 .reviews {
