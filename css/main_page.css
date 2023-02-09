@@ -85,7 +85,7 @@ main {
   margin-right: 20px;
   cursor: pointer;
   font-style: normal;
-  font-family: "CirceRegular";
+  font-family: "Circe";
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -156,7 +156,7 @@ main {
 }
 .course_card_description {
   margin-top: 5px;
-  font-family: "CirceRegular";
+  font-family: "Circe";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -226,7 +226,7 @@ main {
 
 .benefit_card_description {
   margin-top: 4px;
-  font-family: "CirceRegular";
+  font-family: "Circe";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -261,7 +261,7 @@ main {
 }
 
 .text2_test {
-  font-family: "CirceRegular";
+  font-family: "Circe";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -276,7 +276,7 @@ main {
   width: 100%;
   margin-top: 26px;
   padding: 7px 16px;
-  font-family: "CirceRegular";
+  font-family: "Circe";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -402,7 +402,7 @@ main {
 
 .reviewer_name {
   margin-top: 6px;
-  font-family: "CirceRegular";
+  font-family: "Circe";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -419,7 +419,7 @@ main {
 
 .reviewer_reviwe {
   margin-top: 6px;
-  font-family: "CirceRegular";
+  font-family: "Circe";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
