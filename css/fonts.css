@@ -12,3 +12,8 @@
   font-family: "Circe";
   src: url(../fonts/CirceRegular.ttf);
 }
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../fonts/Coolvetica//coolvetica.ttf);
+}
