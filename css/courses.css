@@ -145,7 +145,7 @@ body {
   font-size: 24px;
   line-height: 29px;
   color: #6c757d;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
   border-radius: 10px;
 }
 
@@ -195,10 +195,11 @@ body {
 .checkbox_programma {
   display: flex;
   flex-direction: column;
-  padding: 0px 10px;
+  padding: 10px 14px;
   justify-content: center;
   border-radius: 10px;
   font: 20px/1.4 "RobotoDraft", sans-serif;
+  gap: 8px;
 }
 
 /* .h1 {
