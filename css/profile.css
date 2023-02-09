@@ -96,28 +96,6 @@ body {
   font-size: 36px;
 }
 
-/* Убираем стандартный маркер Chrome */
-details summary::-webkit-details-marker {
-  display: none;
-}
-/* Убираем стандартный маркер Firefox */
-details > summary {
-  list-style: none;
-}
-
-/* Добавляем собственный маркер для закрытого состояния */
-details summary:after {
-  content: "\2228";
-  margin-right: 7px;
-  margin-left: 9px;
-  transform: rotate(90deg);
-}
-
-/* Добавляем собственный маркер для открытого состояния */
-details[open] summary:after {
-  content: "\2227";
-}
-
 .info_progress {
   width: 753px;
   background: linear-gradient(to right, #008b9b 78%, rgba(5, 152, 90, 0.5) 22%);
