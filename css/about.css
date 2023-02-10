@@ -38,7 +38,7 @@ body {
 
 .courses {
   display: flex;
-  max-width: 270  px;
+  max-width: 270px;
 }
 
 .courses_container {
