@@ -3,18 +3,15 @@
   padding: 0;
 }
 
-body {
-}
-
 .main {
-  margin: 40px auto 0;
+  margin: 40px auto 149px;
   width: 1140px;
+  display: flex;
 }
 
 .c {
-  margin-top: 70px;
-  margin-bottom: 140px;
-  margin-left: 600px;
+  margin-left: 117px;
+  margin-top: 83px;
   max-width: 753px;
 }
 
@@ -26,20 +23,7 @@ body {
   margin-bottom: 21px;
 }
 
-.btn {
-  font-family: "Circe";
-  font-size: 25px;
-  line-height: 160px;
-  text-decoration: none;
-  color: black;
-}
-
-.main_logo_img {
+.main_logo {
   width: 456px;
   height: 456px;
-}
-
-.main_logo {
-  width: 25px;
-  height: 25px;
 }
