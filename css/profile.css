@@ -68,10 +68,10 @@ body {
 
 .info_person_box {
   justify-content: space-between;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 0 25px;
   display: flex;
-  width: 753px;
-  height: 290px;
+  width: 708px;
+  height: 270px;
   background: rgba(217, 217, 217, 0.5);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
@@ -165,7 +165,7 @@ body {
   transform: scale(1.1);
 }
 
-.achiv{
+.achiv {
   display: flex;
   gap: 65px;
   margin-top: 18px;
@@ -173,18 +173,17 @@ body {
   border-radius: 10px;
 }
 
-.achiv_items{
+.achiv_items {
   overflow: hidden;
-  max-width: 400px;
+  max-width: 338px;
   display: flex;
-  gap: 40px;
   padding: 12px 0;
 }
 
 .achiv_line {
   transition: all ease 1s;
   position: relative;
-  gap: 65px;
+  gap: 46px;
   display: flex;
   right: 0;
 }
