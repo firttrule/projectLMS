@@ -167,10 +167,11 @@ body {
 
 .achiv {
   display: flex;
-  gap: 65px;
+  gap: 49px;
   margin-top: 18px;
   background-color: #ffffff;
   border-radius: 10px;
+  align-items: center;
 }
 
 .achiv_items {
@@ -186,4 +187,11 @@ body {
   gap: 46px;
   display: flex;
   right: 0;
+}
+
+.arrows {
+  padding: 0 8px;
+  width: 14px;
+  height: 30px;
+  cursor: pointer;
 }
