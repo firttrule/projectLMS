@@ -1,11 +1,18 @@
 window.onload = function() {
-    var achiv = document.getElementById('achiv')
+    var arrowLeft = document.getElementById('arrowLeft')
+    var arrowRight = document.getElementById('arrowRight')
+    var achivLine = document.getElementById('achivLine')
     var offset = 0;
-    function moveSLide() {
-        offset = offset + 289;
-        achiv.style.right =  offset + 'px';
-      }
-    setInterval(() => moveSLide(), 3000)
+
+    arrowLeft.onclick=function() {
+      offset = offset - 150;
+      achivLine.style.right = offset + 'px';
+
+    }
+    arrowRight.onclick=function() {
+      offset = offset + 150;
+      achivLine.style.right = offset + 'px';
+    }
       
 
 }

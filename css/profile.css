@@ -67,24 +67,23 @@ body {
 }
 
 .info_person_box {
+  justify-content: space-between;
+  padding: 20px 20px 0 20px;
   display: flex;
   width: 753px;
   height: 290px;
   background: rgba(217, 217, 217, 0.5);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  position: relative;
   margin-bottom: 35px;
 }
 
 .info_person_box_avatar {
-  position: absolute;
   top: 30px;
   left: 25px;
 }
 
 .info_person_box_content {
-  position: absolute;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -175,7 +174,17 @@ body {
 }
 
 .achiv_items{
+  overflow: hidden;
+  max-width: 400px;
   display: flex;
   gap: 40px;
   padding: 12px 0;
+}
+
+.achiv_line {
+  transition: all ease 1s;
+  position: relative;
+  gap: 65px;
+  display: flex;
+  right: 0;
 }
