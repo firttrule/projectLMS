@@ -8,31 +8,27 @@ var rightArrow = document.getElementById('rightArrow')
 const filterBox = document.querySelectorAll('.course_card')
 var typeFilter = 'all';
 var ageFilter = 'all';
-let offset = 0;
 var currentActiveSlide = 0;
 setClickListners(courseList,' course_type_btn_active')
 setClickListners(ageList,' course_age_btn_active')
-//setClickListners(sliderBtnsList,' slider_btn_active')
-//setSlideListners(sliderBtnsList)
+setSlideListners(sliderBtnsList)
 
 
 rightArrow.onclick=function() {
-  if (offset < 3467) {
+  if (currentActiveSlide < 3) {
     sliderBtnsList[currentActiveSlide].className = sliderBtnsList[currentActiveSlide].className.replace('slider_btn_active',"")
     currentActiveSlide += 1;
     sliderBtnsList[currentActiveSlide].className += ' slider_btn_active';
-    offset += 1156;
-    coursesLine.style.right = offset + 'px'
+    coursesLine.style.right = currentActiveSlide*1156 + 'px'
   }
 }
 
 leftArrow.onclick=function() {
-  if (offset > 0) {
+  if (currentActiveSlide > 0) {
     sliderBtnsList[currentActiveSlide].className = sliderBtnsList[currentActiveSlide].className.replace('slider_btn_active',"")
     currentActiveSlide -= 1;
     sliderBtnsList[currentActiveSlide].className += ' slider_btn_active';
-    offset -= 1156;
-    coursesLine.style.right = offset + 'px'
+    coursesLine.style.right = currentActiveSlide*1156 + 'px'
   }
 }
 
@@ -65,8 +61,7 @@ function setClickListners(list,classNameVar) {
 
             });
           }
-          offset = 0;
-          coursesLine.style.right = offset + 'px';
+          coursesLine.style.right = currentActiveSlide*1156 + 'px';
           sliderBtnsList[currentActiveSlide].classList.remove('slider_btn_active')
           currentActiveSlide = 0;
           sliderBtnsList[currentActiveSlide].classList.add('slider_btn_active')
@@ -82,7 +77,11 @@ function setClickListners(list,classNameVar) {
 function setSlideListners(list) {
     for (let i = 0; i < list.length; i++) {
         list[i].addEventListener("click", function() {
-            coursesLine.style.right = i*1156 + 'px';
+          coursesLine.style.right = i*1156 + 'px';
+          sliderBtnsList[currentActiveSlide].classList.remove('slider_btn_active')
+          currentActiveSlide = i;
+          sliderBtnsList[currentActiveSlide].classList.add('slider_btn_active')
+
         });
       }
   }
