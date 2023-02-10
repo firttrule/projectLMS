@@ -165,3 +165,17 @@ body {
 .course_box:hover {
   transform: scale(1.1);
 }
+
+.achiv{
+  display: flex;
+  gap: 65px;
+  margin-top: 18px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.achiv_items{
+  display: flex;
+  gap: 40px;
+  padding: 12px 0;
+}
